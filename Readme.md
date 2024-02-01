@@ -113,8 +113,8 @@ yolov8 comes in five sizes
     YOLOv8l summary: 365 layers, 43691520 parameters, 43691504 gradients, 165.7 GFLOPs
     YOLOv8x summary: 365 layers, 68229648 parameters, 68229632 gradients, 258.5 GFLOPs
 
-How do you specify which size model to use? Suppose I want to choose the size of m model, the "train". Py 
-the yaml parameters should be specified as ultralytics/models/v8/yolov8m.yaml.
+How do you specify which size model to use? Suppose I want to choose the size of m model, 
+the yaml parameters in the train.py should be specified as ultralytics/models/v8/yolov8m.yaml.
 
 # 6. How to output the parameters and computation of each layer?
 You only need to specify the info parameter in the training command. 
