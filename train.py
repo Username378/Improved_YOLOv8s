@@ -32,7 +32,7 @@ def parse_opt():
     parser.add_argument('--weight', type=str, default='', help='pretrained model path')
     parser.add_argument('--cfg', type=str, default='hyp.yaml', help='hyperparameters path')
 
-    parser.add_argument('--data', type=str, default=r'E:\application\yolov8-improve\dataset\data.yaml', help='data yaml path')
+    parser.add_argument('--data', type=str, default=r'dataset\data.yaml', help='data yaml path')
     
     parser.add_argument('--epochs', type=int, default=300, help='number of epochs to train for')
     parser.add_argument('--patience', type=int, default=100, help='EarlyStopping patience (epochs without improvement)')

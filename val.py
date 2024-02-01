@@ -10,9 +10,9 @@ def transformer_opt(opt):
     
 def parse_opt():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--weight', type=str, default=r'yolov8-improve\runs\train\yolov8s-C2f-faster-EMA-slimneck-dyhead\weights\best.pt', help='training model path')
+    parser.add_argument('--weight', type=str, default=r'runs\train\yolov8s-C2f-faster-EMA-slimneck-dyhead\weights\best.pt', help='training model path')
 
-    parser.add_argument('--data', type=str, default=r'yolov8-improve\dataset2\data.yaml', help='data yaml path')
+    parser.add_argument('--data', type=str, default=r'dataset\data.yaml', help='data yaml path')
     parser.add_argument('--imgsz', type=int, default=640, help='size of input images as integer')
     parser.add_argument('--batch', type=int, default=16, help='number of images per batch (-1 for AutoBatch)')
     parser.add_argument('--split', type=str, default='val', choices=['train', 'val', 'test'], help='dataset split to use for validation, i.e. val, test or train')
