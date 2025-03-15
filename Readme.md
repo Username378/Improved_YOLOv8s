@@ -1,3 +1,4 @@
+# BY 孔德睿
 # 1. Environment configuration tutorial
     
     Run pip uninstall ultralytics to clean the ultralytics library installed in the environment
